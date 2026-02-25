@@ -15,6 +15,8 @@ export default class MovieController {
                 movie
             });
         } catch (error) {
+            console.error(error);
+
             if (error.name === "ValidationError") {
                 return res.status(400).json({
                     message: error.message,
@@ -22,7 +24,7 @@ export default class MovieController {
             }
 
             return res.status(500).json({
-                message: "Internal error",
+                message: error.message,
             });
         }
     }
