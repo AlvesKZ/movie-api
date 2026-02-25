@@ -1,5 +1,5 @@
 {
-  "name": "film-api",
+  "name": "movie-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlvesKZ/film-api.git"
+    "url": "git+https://github.com/AlvesKZ/movie-api.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlvesKZ/film-api/issues"
+    "url": "https://github.com/AlvesKZ/movie-api/issues"
   },
-  "homepage": "https://github.com/AlvesKZ/film-api#readme",
+  "homepage": "https://github.com/AlvesKZ/movie-api#readme",
   "dependencies": {
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
