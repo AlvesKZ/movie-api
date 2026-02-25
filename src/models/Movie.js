@@ -28,3 +28,7 @@ const movieSchema = new mongoose.Schema({
     required: [true, "The movie must have a duration"],
   },
 });
+
+movieSchema.index({ name: "text" });
+
+export default mongoose.model('Movie', movieSchema);
